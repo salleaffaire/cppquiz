@@ -3,6 +3,7 @@
 
 // Quiz 2: What is the output of this program?
 //         What is the Foo(Foo &&x) member function called?
+//         Why is the destructor made virtual?
 //         What should happen (on a good compiler) if we remove the std::move()?
 //  
 
