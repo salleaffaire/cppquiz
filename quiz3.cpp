@@ -12,15 +12,11 @@ void loopIt(T x) {
     }
 }
 
-template<>
-void loopIt<float,0>(float x) {
-    std::cout << "I'm specialized" << std::endl;
-}
-
+// Look ./answers/quiz3-a.exclude
 
 int main(int argc, char *argv[]) {
     float x = 2.1;
     loopIt<float,3>(x);
-    loopIt<float,0>(1000);
+
     return 0;
 }

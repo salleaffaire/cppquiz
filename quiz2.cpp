@@ -1,8 +1,8 @@
 #include <iostream>
 #include <cstring>
 
-// Quiz 2: What is the output of this program?
-//         What is the Foo(Foo &&x) member function called?
+// Quiz 2: Can you describe each of the 6 member functions of Foo?
+//         What is the output of this program?
 //         Why is the destructor made virtual?
 //         What should happen (on a good compiler) if we remove the std::move()?
 //  

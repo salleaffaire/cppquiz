@@ -1,0 +1,11 @@
+
+
+// template <typename T, int count>
+// template<>
+// void loopIt<float,0>(float x) {
+//     std::cout << "I'm specialized" << std::endl;
+// }
+
+
+// Call it
+// loopIt<float,0>(1000);
