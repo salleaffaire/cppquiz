@@ -74,6 +74,7 @@ int main(int argc, char *argv[]) {
     Foo afoo{data, SIZE, std::string{"local"}};
     Foo bfoo = afoo;
     Foo cfoo(std::move(getAFoo()));
+    // Foo cfoo(getAFoo());
 
     afoo = bfoo;
 
