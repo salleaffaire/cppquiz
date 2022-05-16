@@ -16,6 +16,8 @@
 
 ## Without the std::move
 
+[Copy Elision](https://en.wikipedia.org/wiki/Copy_elision)
+
 - Constructor global   [[ gfoo is being created ]]
 - Constructor local    [[ afoo is being created ]]
 - Copy Constructor     [[ bfoo is being create from afoo - compiler calls CC]]
